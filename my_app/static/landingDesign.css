@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html>
-<head>
-<style>
+
 body {
     background-color: #FFFFFF;
-    width: 1920px;
-    height: 1080px;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
 }
+
 
 h1 {
     font-family: 'Sumana', serif;
@@ -26,7 +26,7 @@ img {
 
 #sidebar {
     position: absolute;
-    height: 698px;
+    height: 1000px;
     width: 140px;
     left: 0px;
     top: 200px;
@@ -55,4 +55,18 @@ img {
     font-size: 18px;
     text-align: center;
     background-color: #F4F4F4;
+}
+
+#clock {
+    position: absolute;
+    height: 700px;
+    left: 290px;
+    top: 100px;
+    font-family: 'Proza Libre', sans-serif;
+    font-size: 200px;
+    font-weight: 800;
+    width: 900px;
+    margin: 200px;
+    text-align: center;
+
 }
