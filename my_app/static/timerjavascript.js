@@ -49,6 +49,7 @@ function resetTimer(){
   clearInterval(tInterval);
   savedTime = 0;
   difference = 0;
+  difference = 0;
   paused = 0;
   running = 0;
   timerDisplay.innerHTML = 'Start Timer!';
@@ -61,17 +62,25 @@ function resetTimer(){
   pauseTimerButton.style.cursor = "auto";
 }
 function getShowTime(){
+  startTime = 25;
   updatedTime = new Date().getTime();
+  console.log(updatedTime)
   if (savedTime){
     difference = (updatedTime - startTime) + savedTime;
   } else {
     difference =  updatedTime - startTime;
+    console.log("Saved time is undefined")
+    console.log(difference)
   }
   // var days = Math.floor(difference / (1000 * 60 * 60 * 24));
   var hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  console.log("hours: " +hours)
   var minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
+  console.log("minutes: " +minutes)
   var seconds = Math.floor((difference % (1000 * 60)) / 1000);
+  console.log("seconds: " +seconds)
   var milliseconds = Math.floor((difference % (1000 * 60)) / 100);
+  console.log()
 hours = (hours < 10) ? "0" + hours : hours;
   minutes = (minutes < 10) ? "0" + minutes : minutes;
   seconds = (seconds < 10) ? "0" + seconds : seconds;
