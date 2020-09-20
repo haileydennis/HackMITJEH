@@ -55,7 +55,7 @@ p {
 
 #clock:hover {
     border-style: solid;
-    filter: blur(4px);
+    border-filter: blur(4px);
     border-width: thin;
     border-radius: 25px;
 }
@@ -64,7 +64,6 @@ p {
     height: 250px;
     width: 250px;
     right: 2000px;
-    background-color: red;
 }
 
 #AMPM {
