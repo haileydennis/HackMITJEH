@@ -1,0 +1,71 @@
+/* The sidebar menu */
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #F4F4F4; 
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    display: block;
+    height: 111px;
+    line-height: 111px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Proza Libre', sans-serif;
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    display: block;
+  }
+
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    background-color: #c4c4c4;
+  }
+  
+  #logo {
+      display: table-cell;
+      background-color: white;
+      vertical-align: center;
+  }
+
+  /* Style page content */
+  .main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+.title {
+    font-family: 'Sumana', serif;
+    font-size:72px;
+    font-weight: 100;
+    text-align: left;
+    position:relative;
+    top: -50px;
+    left: 50px;
+}
+
+.settings-input {
+    font-family: 'Prozna Libre', sans-serif;
+    font-size: 16;
+}
+
+.foot-note {
+    font-family: 'Prozna Libre', sans-serif;
+    left: 375;
+    /* text-transform: capitalize; */
+    font-size: 18;
+}
