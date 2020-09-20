@@ -31,9 +31,15 @@
   }
   
   #logo {
+
       display: table-cell;
       background-color: white;
       vertical-align: center;
+      width: 170px;
+      height: 100px;
+      left: 60px;
+      top: 0px;
+      bottom: 200 px;
   }
 
   /* Style page content */

@@ -18,13 +18,13 @@ p {
     position: absolute;
     width: 90px;
     height: 90px;
-    left: 60px;
-    top: 45px;
+    left: 55px;
+    top: 55px;
 }
 
 #fspic {
     position: absolute;
-    left: 1185px;
+    left: 1200px;
     bottom: 345px;
 
 }
@@ -41,14 +41,14 @@ p {
 }
 
 #clock {
-    position: relative;
+    position: absolute;
     height: 250px;
     left: 130px;
     top: 100px;
     font-family: 'Proza Libre', sans-serif;
     font-size: 200px;
     font-weight: 800;
-    width: 900px;
+    width: 910px;
     margin: 200px;
     text-align: center;
 }
