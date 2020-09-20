@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#clock:hover {
+
+    border-style: solid;
+    border-width: thin;
+    border-radius: 25px;
+
+}
+
+#clock {
+    position: relative;
+    height: 250px;
+    left: 130px;
+    top: 100px;
+    font-family: 'Proza Libre', sans-serif;
+    font-size: 200px;
+    font-weight: 800;
+    width: 900px;
+    margin: 200px;
+    text-align: center;
+}
+
+#AMPM {
+position: absolute;
+    height: 700px;
+    left: 870px;
+    top: 250px;
+    font-family: 'Proza Libre', sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    width: 900px;
+    margin: 200px;
+    text-align: left;
+}
+
+input[type="button"] {
+    font-family: 'Sumana', serif;
+    font-size: 72px;
+    position: absolute;
+    top: -55px;
+    left: 20px;
+    background-color: #FFFFFF;
+    border: none;
+    outline: none;
+}
+

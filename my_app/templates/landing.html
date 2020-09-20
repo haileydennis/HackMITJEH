@@ -8,16 +8,28 @@
     <title>sesh.</title>
 </head>
 <body>
-    <img src="noun_clock_20198101.png">
-    <div id="timer container">
-    <h1 id="title">sesh.</h1>
-    </div>
-
-    <div id="clock">
-        <script src="../static/clockScript.js"></script>
+    <img id="clockpic" src="noun_clock_20198101.png">
+    <p id="title">sesh.</p>
+    <div id="clockContainer">
+        <img id="fspic" src="fullscreenthingy.png" style="width:3em; height:3em;"/>
+        <div id="clock">
+            <script src="../static/clockScript.js"></script>
+        </div>
+        <div id="AMPM">
+            <script src="../static/clockScript.js"></script>
+        </div>
     </div>
 
     <div id="sidebar">
-        <div id="TIMERtext"><h3>TIMER</h3></div>
-        <div id="SETTINGStext"><h3>SETTINGS</h3></div>
+        <div id="TIMERbutton">
+        <input type="button" onclick="location.href='../templates/noun_clock_20198101.png';" value = "TIMER"/>
+
+        </div>
+        <div id="SETTINGSbutton">
+        <input type="button" onclick="location.href='../templates/noun_clock_20198101.png';" value = "SETTINGS"/>
+
+        </div>
+
     </div>
+</body>
+</html>
