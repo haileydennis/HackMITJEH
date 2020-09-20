@@ -12,15 +12,15 @@ h1 {
     font-family: 'Sumana', serif;
     font-size:60px;
     position:relative;
-    top: -34px;
-    left: 210px;
+    top: -50px;
+    left: 300px;
 }
 
 img {
     position: absolute;
-    width: 60px;
-    height: 60px;
-    left: 45px;
+    width: 90px;
+    height: 90px;
+    left: 60px;
     top: 45px;
 }
 
@@ -29,7 +29,7 @@ img {
     height: 698px;
     width: 140px;
     left: 0px;
-    top: 382px;
+    top: 200px;
     text-align: center;
     padding: 30px;
     background-color: #F4F4F4;
